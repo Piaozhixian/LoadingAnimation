@@ -1,0 +1,13 @@
+自己做了一个加载页面时的动画,4个小点交替着透明度有深到浅,再由浅到深。
+代码中写了square(正方形),但其实显示的确实圆形的原因,其实是刚开始会觉得正方形比较帅,但后来做出来的效果太丑就换成圆形了- -!
+
+使用方法:
+1.导入以下文件
+jquery:<script src="http://code.jquery.com/jquery-1.4.1.js"></script>
+执行动画的js文件:<script src="loading_animation.js"></script>
+css样式文件:<link href="style.css" rel="stylesheet" type="text/css"/>
+2.再body添加div id为loading-animation-area就OK了。
+<div id="loading-animation-area"></div>
+
+
+
